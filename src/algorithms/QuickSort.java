@@ -1,17 +1,19 @@
 package algorithms;
 
-public class QuickSort {
+public class QuickSort extends AbstractSortingAlgorithm {
 
-    public QuickSort(double[] array) {
-        sort(array);
+    @Override
+    public String getName() {
+        return getClass().getSimpleName();
     }
 
-    private void sort(double[] array) {
+    @Override
+    public void sort(double[] array) {
         if (array.length < 2) return;
         quickSort(array, 0, array.length - 1);
     }
 
-    private void quickSort(double array[], int min, int max) {
+    private void quickSort(double[] array, int min, int max) {
         if (min < max) {
             int pivotIndex = partition(array, min, max);
             quickSort(array, min, pivotIndex - 1);
@@ -19,7 +21,7 @@ public class QuickSort {
         }
     }
 
-    private int partition(double array[], int min, int max) {
+    private int partition(double[] array, int min, int max) {
         var pivot = array[max];
         int i = (min - 1);
 

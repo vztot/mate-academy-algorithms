@@ -1,12 +1,14 @@
 package algorithms;
 
-public class BubbleSort {
+public class BubbleSort extends AbstractSortingAlgorithm {
 
-    public BubbleSort(double[] array) {
-        sort(array);
+    @Override
+    public String getName() {
+        return getClass().getSimpleName();
     }
 
-    private void sort(double[] array) {
+    @Override
+    public void sort(double[] array) {
         if (array.length < 2) return;
 
         int i = 0;

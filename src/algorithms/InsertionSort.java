@@ -1,12 +1,14 @@
 package algorithms;
 
-public class InsertionSort {
+public class InsertionSort extends AbstractSortingAlgorithm {
 
-    public InsertionSort(double[] array) {
-        sort(array);
+    @Override
+    public String getName() {
+        return getClass().getSimpleName();
     }
 
-    private void sort(double[] array) {
+    @Override
+    public void sort(double[] array) {
         if (array.length < 2) return;
 
         for (int i = 1; i < array.length; i++) {

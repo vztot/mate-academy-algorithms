@@ -1,12 +1,14 @@
 package algorithms;
 
-public class MergeSort {
+public class MergeSort extends AbstractSortingAlgorithm {
 
-    public MergeSort(double[] array) {
-        sort(array);
+    @Override
+    public String getName() {
+        return getClass().getSimpleName();
     }
 
-    private void sort(double[] array) {
+    @Override
+    public void sort(double[] array) {
         if (array.length < 2) return;
         mergeSort(array, array.length);
     }

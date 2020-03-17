@@ -1,12 +1,14 @@
 package algorithms;
 
-public class SelectionSort {
+public class SelectionSort extends AbstractSortingAlgorithm {
 
-    public SelectionSort(double[] array) {
-        sort(array);
+    @Override
+    public String getName() {
+        return getClass().getSimpleName();
     }
 
-    private static void sort(double[] array) {
+    @Override
+    public void sort(double[] array) {
         if (array.length < 2) return;
 
         for (int i = 0; i < array.length - 1; i++) {
