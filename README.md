@@ -1,6 +1,6 @@
 # Lesson 0 Advanced: Algorithms Accomplishment
 
-Here is implementations of sorting algorithms:
+Here is implementation of sorting algorithms:
 
 - [Bubble sort](src/algorithms/BubbleSort.java)
 - [Merge sort](src/algorithms/MergeSort.java)
