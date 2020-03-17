@@ -1,15 +1,10 @@
 import algorithms.*;
 
-import java.io.ObjectStreamException;
-
 public class Main {
 
     private static final int ARRAY_LENGTH = 50000;
 
     public static void main(String[] args) {
-
-        try{Thread.sleep(2000);}
-        catch (Exception e) {}
 
         System.out.println("");
         System.out.println("Algorithm      | Time (sec.)");
@@ -23,7 +18,7 @@ public class Main {
                 new BubbleSort(),
         };
 
-        for (AbstractSortingAlgorithm algorithm : algorithms){
+        for (AbstractSortingAlgorithm algorithm : algorithms) {
             new Test(algorithm, ARRAY_LENGTH);
         }
 
