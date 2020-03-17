@@ -6,9 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("");
-        System.out.println("Algorithm      | Time (sec.)");
-        System.out.println("============================");
+        System.out.println("\nAlgorithm      | Time (sec.)\n============================");
 
         AbstractSortingAlgorithm[] algorithms = {
                 new QuickSort(),
@@ -22,8 +20,6 @@ public class Main {
             new Test(algorithm, ARRAY_LENGTH);
         }
 
-        System.out.println();
-        System.out.format("After sorting array of %d random doubles we can see that Quick Sort is the fastest algorithm of listed above.", ARRAY_LENGTH);
-        System.out.println();
+        System.out.format("\nAfter sorting array of %d random doubles we can see that Quick Sort is the fastest algorithm of listed above.\n", ARRAY_LENGTH);
     }
 }
