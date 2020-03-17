@@ -10,4 +10,4 @@ Here is implementation of sorting algorithms:
 
 And a quick [Test](src/Test.java) in [Main](src/Main.java):
 
-![gif](https://s5.gifyu.com/images/ezgif.com-video-to-gif-157b7e225ed5f005c.gif)
+![gif](doc/img/console.gif)
