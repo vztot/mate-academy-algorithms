@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        try{Thread.sleep(2000);}
+        catch (Exception e){}
+
         System.out.println("\n" +
                 "Algorithm      | Time (sec.)\n" +
                 "============================");
@@ -20,6 +23,8 @@ public class Main {
 
         for (AbstractSortingAlgorithm algorithm : algorithms) {
             new Test(algorithm, ARRAY_LENGTH);
+            try{Thread.sleep(1000);}
+            catch (Exception e){}
         }
 
         System.out.format("\n" +
