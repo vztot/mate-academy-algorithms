@@ -8,6 +8,6 @@ Here is implementation of sorting algorithms:
 - [Selection sort](src/algorithms/SelectionSort.java)
 - [Quick sort](src/algorithms/QuickSort.java)
 
-And a quick test in [Main class](src/Main.java):
+And a quick [Test](src/Test.java) in [Main](src/Main.java):
 
 ![gif](https://s5.gifyu.com/images/ezgif.com-video-to-gif-157b7e225ed5f005c.gif)
