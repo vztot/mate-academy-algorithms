@@ -2,11 +2,11 @@
 
 Here is implementations of sorting algorithms:
 
-- [Buble sort](algorithms/BubleSort.java)
-- [Merge sort](algorithms/MergeSort.java)
-- [Insertion sort](algorithms/InsertionSort.java)
-- [Selection sort](algorithms/SelectionSort.java)
-- [Quick sort](algorithms/QuickSort.java)
+- [Buble sort](src/algorithms/BubleSort.java)
+- [Merge sort](src/algorithms/MergeSort.java)
+- [Insertion sort](src/algorithms/InsertionSort.java)
+- [Selection sort](src/algorithms/SelectionSort.java)
+- [Quick sort](src/algorithms/QuickSort.java)
 
 And quick test in [Main](src/Main.java) class:
 
