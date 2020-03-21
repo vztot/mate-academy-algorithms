@@ -23,6 +23,7 @@ public class BubbleSort extends AbstractSortingAlgorithm {
                     needSort = true;
                 }
             }
+            if (!needSort) break;
             i++;
         }
     }
